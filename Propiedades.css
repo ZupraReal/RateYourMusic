@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0B1528;
+    color: #ffffff;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #52a8ff;
+}
+
+.album {
+    background-color: rgb(55, 55, 94);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 600px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.album img:hover {
+    transform: scale(1.05);
+}
+
+p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #c4c4c4
+}
+
+
